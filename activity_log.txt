@@ -24,3 +24,5 @@
 2025-08-28 13:46:55 - christopher.thompson: Logged in
 2025-08-28 13:47:16 - david.rodriguez: Logged in
 2026-01-20 09:30:16 - david.rodriguez: Logged in
+2026-01-22 15:47:28 - admin: Logged in
+2026-01-22 15:47:42 - worker: Logged in

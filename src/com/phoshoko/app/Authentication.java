@@ -87,8 +87,6 @@ public class Authentication extends javax.swing.JFrame {
         pasLogin = new javax.swing.JPasswordField();
         btnLogin = new javax.swing.JButton();
         lblValidation = new javax.swing.JLabel();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
         lblWelcomeImage = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -256,14 +254,6 @@ public class Authentication extends javax.swing.JFrame {
         jLayeredPane4.add(pnlWelcome);
         pnlWelcome.setBounds(200, 110, 400, 370);
 
-        jTextArea1.setColumns(20);
-        jTextArea1.setRows(5);
-        jTextArea1.setText("Admin Logins\nUsername: Admin\nPassword: Admin!235\n\n\nWorker:\nUsername: david.rodriguez\nPassword: mypassword\n");
-        jScrollPane1.setViewportView(jTextArea1);
-
-        jLayeredPane4.add(jScrollPane1);
-        jScrollPane1.setBounds(600, 140, 180, 310);
-
         lblWelcomeImage.setBackground(new java.awt.Color(0, 0, 0));
         lblWelcomeImage.setForeground(new java.awt.Color(255, 255, 255));
         lblWelcomeImage.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -416,8 +406,6 @@ public class Authentication extends javax.swing.JFrame {
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JLayeredPane jLayeredPane4;
     private javax.swing.JLayeredPane jLayeredPane5;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextArea jTextArea1;
     private javax.swing.JLabel lblLine2;
     private javax.swing.JLabel lblLine3;
     private javax.swing.JLabel lblValidation;
